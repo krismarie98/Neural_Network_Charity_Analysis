@@ -11,6 +11,9 @@ The variables that are considered to be features for this model are application 
 The two columsn that were removed from the data set were the EIN columns and the name columns. This is because they did not add value to the question posed.
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+With the first attempt I choose to keep the original model I did with two hidden layers and with all the activations function the same using relu except the output layer which used sigmoid. For teh second attempt I choose to add a third layer and increase the number of nodes for each layer. Additionally, the output layer was changed to tanh. For the third attempt I still had three hidden layers but increased the node amount and changed the output  activation function back to sigmoid. I was hoping that by adding the additional layers and chaning the ouput function that the models accuracy would increase.
 * Were you able to achieve the target model performance?
+I was not able to achieve the target model perfomance, my accuracy did not increase a significant amount.
 * What steps did you take to try and increase model performance?
+
 ## Summary:
